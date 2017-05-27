@@ -62,7 +62,7 @@
                             <thead>
                                 <tr>
                                     <th class="fixed">اطلب</th>
-                                    <th class="fixed">السعر</th>
+                                    <th class="fluid">السعر</th>
                                     <th class="fixed">الوزن</th>
                                     <th class="fixed">العد</th>
                                     <th class="fixed">النوع</th>
