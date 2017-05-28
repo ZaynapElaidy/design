@@ -56,9 +56,11 @@ th, td {
 .fixed {
     max-width:150px;
     min-width: 150px;
+    text-align: center;
 }
 .fluid {
         width: 50%;
+        text-align: center;
 }
 
 
