@@ -37,7 +37,7 @@
     	<h3 style="color: #ffcc33; margin: 0 auto; text-align: center;  font-family: 'Teko', sans-serif;">استمتـــع بالتصفــــح هنـــــا</h3>
     </header>
 
-    <div class="content" style="background-color: #99ff66;background:url('../hen.jpg');background-repeat: no-repeat; background-size: cover;">
+    <div class="content" >
         <div class="container">
             <h2 style="text-align: center; color: #34d55f;">بورصه الدواجن</h2>
             
