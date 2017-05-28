@@ -62,7 +62,7 @@
                             <thead>
                                 <tr>
                                     <th class="fixed">اطلب</th>
-                                    <th class="fluid">السعر</th>
+                                    <th class="fluid">سعر الكيلو</th>
                                     <th class="fixed">الوزن</th>
                                     <th class="fixed">العد</th>
                                     <th class="fixed">النوع</th>
@@ -76,15 +76,17 @@
             </div>
 
             <div class="row">
-                <div class=" col-md-offset-1" style="margin-left:100px">
-                    <div class='col-sm-6'>
+                <div class=" col-md-offset-1" style="margin-left:400px">
+                    <div class='col-sm-8'>
                         <table class="data2" style=" margin-bottom: 150px; margin-left: 100PX;">
                             <thead>
                                 <tr>
-                                    <th  class="fluid">السعر</th>
+                                    <th  class="fluid">سعر الكيلو</th>
                                     <th  class="fixed">الوزن</th>
                                     <th  class="fluid">العد</th>
-                                    <th  class="fluid">النوع</th>
+                                   
+                                    
+
                                 </tr>
                             </thead>
                             <tbody class="b2"></tbody>
@@ -107,7 +109,7 @@
                     <div class="modal-body">
                         <div class="form-group">
                             <label for="">النوع</label>
-                            <input type="text" class="form-control" name="type">
+                            <input type="text" class="form-control type" name="type">
                         </div>
                         <div class="form-group">
                             <label for="">العدد</label>
@@ -118,7 +120,7 @@
                             <input type="text" class="form-control wight" name="wight"/><br><br>
                         </div>
                         <div class="form-group">
-                            <label for="">السعر</label>
+                            <label for="">السعر للكيلو</label>
                             <input type="number" class="form-control price" name="price"/><br><br>
                         </div>
                     </div>
@@ -139,10 +141,7 @@
                 </div>
                 <form action="#" method="post">
                     <div class="modal-body">
-                        <div class="form-group">
-                            <label for="">النوع</label>
-                            <input type="text" class="form-control type2" name="type"/>
-                        </div>
+                      
                         <div class="form-group">
                             <label for="">العدد</label>
                             <input type="text" class="form-control num2" name="num"/>
@@ -152,7 +151,7 @@
                             <input type="text" class="form-control wight2" name="wight"/>
                         </div>
                         <div class="form-group">
-                            <label for="">السعر</label>
+                            <label for="">السعر للكيلو</label>
                             <input type="text" class="form-control price2" name="price"/><br><br>
                         </div>
                     </div>
@@ -222,7 +221,7 @@
             $('.data').show();
             var tabledata=$('tbody').append('<tr>');
             tabledata=$('tbody').append(
-                '<tr><td><button type="button" class="order" data-toggle="modal" data-target="#btn2">إطلب منتج</button></td>'+'<td>'+
+                '<tr><td><button type="button" class="order" data-toggle="modal" data-target="#btn2">طلب المنتج</button></td>'+'<td>'+
                     wigh+
                 '</td><td>'+
                     pric+
@@ -230,21 +229,22 @@
                     num+
                 '</td><td>'+
                     typ+
-                '</td></tr>');
+               '</td>'+'<td>'+ '</td></tr>');
         });
 
         $('.data2').hide();
+          $('.data').hide();
         $('.orderm').on('click', function(event){
             event.preventDefault();
 
-            var typ2= $('.type2').val();
+           
             var num2=$('.num2').val();
             var wigh2=$(".wight2").val();
             var pric2=$(".price2").val();
-            console.log(typ +num +wigh+pric );
+            console.log(num2 +wigh2+pric2 );
             $('.data2').show();
-            var tabledata2=$('.b2').append('<tr>');
-            tabledata2 +=$('.b2').append('<tr>' +'<td>'+wigh2+'</td>'+'<td>'+ pric2 + '</td>'+'<td>'+ num2 + '</td>'+'<td>'+ typ2 + '</td>'+'<td>'+ typ2 + '</td>'+'</tr>');
+            var tabledata2;
+            tabledata2 =$('.b2').append('<tr>' +'<td>'+pric2+'</td>'+'<td>'+ wigh2 + '</td>'+'<td>'+ num2 + '</td>'+'</tr>');
         });
     </script>
 </body>
