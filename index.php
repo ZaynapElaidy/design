@@ -78,7 +78,7 @@
             <div class="row">
                 <div class=" col-md-offset-1" style="margin-left:400px">
                     <div class='col-sm-8'>
-                        <table class="data2" style=" margin-bottom: 150px; margin-left: 100PX;">
+                        <table class="data2" style=" margin-bottom: 150px; margin-right: 120PX;">
                             <thead>
                                 <tr>
                                     <th  class="fluid">سعر الكيلو</th>
