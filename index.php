@@ -13,16 +13,16 @@
                     <div class="col-md-6">
                         <li>
                             <h3>
-                                <a href="http://dlilyou.com/login" style="float:right;color:#aeef62;width:100x;text-decoration:none;font-size:16px; font-family: 'Teko', sans-serif;">
+                              <a href="http://dlilyou.com/login" style="float:right;color:#aeef62;width:100x;text-decoration:none;font-size:16px; font-family: 'Teko', sans-serif;">
                                     إنضم إلينا
-                                </a>
+                                </a> 
                             </h3>
                         </li>
                     </div>
                     <div class="col-md-1">
                         <li>
                             <h3>
-                                <a href="http://dlilyou.com/register" style="float: right; color: #aeef62;width:100x; font-size: 16px; text-decoration: none;font-family: 'Teko', sans-serif;">
+                               <a href="http://dlilyou.com/register" style="float: right; color: #aeef62;width:100x; font-size: 16px; text-decoration: none;font-family: 'Teko', sans-serif;">
                                     تسجيل الدخول
                                 </a>
                             </h3>
@@ -39,7 +39,8 @@
 
     <div class="content" >
         <div class="container">
-            <h2 style="text-align: center; color: #34d55f; font-size: 40px;">بورصه الدواجن</h2>
+           <h2 style="text-align: center; color: #64de13; font-size: 40px;">بورصه الدواجن</h2>
+           <p style="text-align: center; color: #d7f300; font-size: 40px;">يمكنك إضافه منتجك هنا </p>
             
           
                         <button type="button" class="add" data-toggle="modal" data-target="#btn1">
