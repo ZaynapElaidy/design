@@ -69,7 +69,7 @@
                                   
                                 </tr>
                             </thead>
-                            <tbody></tbody>
+                            <tbody class="b1"></tbody>
                         </table>
                     </div>
                 </div>
@@ -219,8 +219,8 @@
             var pric=$(".price").val();
             console.log(typ +num +wigh+pric );
             $('.data').show();
-            var tabledata=$('tbody').append('<tr>');
-            tabledata=$('tbody').append(
+            var tabledata=$('.b1').append('<tr>');
+            tabledata=$('.b1').append(
                 '<tr><td><button type="button" class="order" data-toggle="modal" data-target="#btn2">طلب المنتج</button></td>'+'<td>'+
                     wigh+
                 '</td><td>'+
@@ -231,6 +231,8 @@
                     typ+
                '</td>'+'<td>'+ '</td></tr>');
         });
+        </script>
+        <script type="text/javascript">
 
         $('.data2').hide();
           $('.data').hide();
