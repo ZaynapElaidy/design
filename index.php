@@ -39,7 +39,7 @@
 
     <div class="content" >
         <div class="container">
-            <h2 style="text-align: center; color: #34d55f;">بورصه الدواجن</h2>
+            <h2 style="text-align: center; color: #34d55f; font-size: 40px;">بورصه الدواجن</h2>
             
           
                         <button type="button" class="add" data-toggle="modal" data-target="#btn1">
@@ -230,6 +230,7 @@
                 '</td><td>'+
                     typ+
                '</td>'+'<td>'+ '</td></tr>');
+            $("#addm").modal('hide');
         });
         </script>
         <script type="text/javascript">
