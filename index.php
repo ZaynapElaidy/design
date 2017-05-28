@@ -61,8 +61,8 @@
                         <table class="data" style=" margin-bottom: 26px; color: #29352a">
                             <thead>
                                 <tr>
-                                    <th class="fixed">اطلب</th>
-                                    <th class="fluid">سعر الكيلو</th>
+                                    <th class="fluid">اطلب</th>
+                                    <th class="fixed">سعر الكيلو</th>
                                     <th class="fixed">الوزن</th>
                                     <th class="fixed">العد</th>
                                     <th class="fixed">النوع</th>
