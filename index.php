@@ -65,7 +65,7 @@
                                     <th class="fluid">اطلب</th>
                                     <th class="fixed">سعر الكيلو</th>
                                     <th class="fixed">الوزن</th>
-                                    <th class="fixed">العد</th>
+                                    <th class="fixed">العدد</th>
                                     <th class="fixed">النوع</th>
                                   
                                 </tr>
@@ -84,7 +84,7 @@
                                 <tr>
                                     <th  class="fluid">سعر الكيلو</th>
                                     <th  class="fixed">الوزن</th>
-                                    <th  class="fluid">العد</th>
+                                    <th  class="fluid">العدد</th>
                                    
                                     
 
@@ -104,29 +104,29 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal"></button>
-                    <h4 class="modal-title">إضافه منتج</h4>
+                    <h4 class="modal-title" style="float: right; text-align: center;">إضافه منتج</h4>
                 </div>
                 <form action="#" method="post" >
                     <div class="modal-body">
                         <div class="form-group">
-                            <label for="">النوع</label>
+                            <label for="type" style="float: right;">النوع</label>
                             <input type="text" class="form-control type" name="type">
                         </div>
                         <div class="form-group">
-                            <label for="">العدد</label>
+                            <label for="num" style="float: right;">العدد</label>
                             <input type="text" class="form-control num" name="num"/>
                         </div>
                         <div class="form-group">
-                            <label for="">الوزن</label>
+                            <label for="wight"  style="float: right;">الوزن</label>
                             <input type="text" class="form-control wight" name="wight"/><br><br>
                         </div>
                         <div class="form-group">
-                            <label for="">السعر للكيلو</label>
+                            <label for="price"  style="float: right;">السعر للكيلو</label>
                             <input type="number" class="form-control price" name="price"/><br><br>
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="submit" class="btn btn-default addm">إضافه</button>
+                        <button type="submit" class="btn btn-default addm"  style="float: right;">إضافه</button>
                     </div>
                 </form>
             </div>
@@ -138,26 +138,26 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal"></button>
-                    <h4 class="modal-title">طلب منتج</h4>
+                    <h4 class="modal-title"  style="float: right;">طلب منتج</h4>
                 </div>
                 <form action="#" method="post">
                     <div class="modal-body">
                       
                         <div class="form-group">
-                            <label for="">العدد</label>
+                            <label for="num"  style="float: right;">العدد</label>
                             <input type="text" class="form-control num2" name="num"/>
                         </div>
                         <div class="form-group">
-                            <label for="">الوزن</label>
+                            <label for="wight"  style="float: right;">الوزن</label>
                             <input type="text" class="form-control wight2" name="wight"/>
                         </div>
                         <div class="form-group">
-                            <label for="">السعر للكيلو</label>
+                            <label for="price"  style="float: right;">السعر للكيلو</label>
                             <input type="text" class="form-control price2" name="price"/><br><br>
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="submit" class="btn btn-default orderm">اطلب</button>
+                        <button type="submit" class="btn btn-default orderm"  style="float: right;">اطلب</button>
                     </div>
                 </form>
             </div>
@@ -179,26 +179,26 @@
                 <form>
                     <div class="col-md-6 form-line">
                         <div class="form-group">
-                            <label for="exampleInputUsername">الإسم</label>
+                            <label for="exampleInputUsername" style="float: right;">الإسم</label>
                             <input type="text" class="form-control" id="" placeholder=" أدخل إسمك">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputEmail">الإيميل</label>
+                            <label for="exampleInputEmail" style="float: right;">الإيميل</label>
                             <input type="email" class="form-control" id="exampleInputEmail" placeholder=" أدخل ايميلك">
                         </div>  
                         <div class="form-group">
-                            <label for="telephone">رقم الموبايل</label>
+                            <label for="telephone" style="float: right;">رقم الموبايل</label>
                             <input type="tel" class="form-control" id="telephone" placeholder=" أدخل رقم تليفونك">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label for ="description"> رسالتك</label>
+                            <label for ="description" style="float: right;"> رسالتك</label>
                             <textarea  class="form-control" id="description" placeholder="أدخل رسالتك"></textarea>
                         </div>
                         <div>
 
-                            <button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  ارسال</button>
+                            <button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true" style="float: right;"></i>  ارسال</button>
                         </div>
                         
                     </div>
